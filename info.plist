@@ -60,19 +60,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>2221A9CD-EA12-4CA7-A167-CC879D6E6FD4</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B76296E1-C28E-4CC4-864A-4EE74F639B2D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>266589AF-4BBD-47BB-8AC4-42D7A8F9A9D7</key>
 		<array>
 			<dict>
@@ -203,19 +190,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>641B9D67-E0A2-4E4D-B173-311EFEC5E9A6</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B76296E1-C28E-4CC4-864A-4EE74F639B2D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>6CEE0380-7BB8-4FAD-8146-1BFD0219973F</key>
 		<array>
 			<dict>
@@ -281,34 +255,8 @@
 				<false/>
 			</dict>
 		</array>
-		<key>B3994634-DAE0-4731-A50C-B90467665AE3</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>2221A9CD-EA12-4CA7-A167-CC879D6E6FD4</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>B3CFC472-CF47-4072-B35C-BDF99697D7C7</key>
 		<array/>
-		<key>B5F2864B-81D9-4ECA-8352-189497BEA83F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>641B9D67-E0A2-4E4D-B173-311EFEC5E9A6</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>B76296E1-C28E-4CC4-864A-4EE74F639B2D</key>
 		<array>
 			<dict>
@@ -489,27 +437,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>GitHub Shorthand Tools Error</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>10A42F83-D208-4620-ADCD-E28A7C2B6800</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -557,6 +484,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>GitHub Shorthand Tools Error</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>10A42F83-D208-4620-ADCD-E28A7C2B6800</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>Unknown command: {query}</string>
 				<key>variables</key>
@@ -589,21 +537,10 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
-			<string>21A75BDB-BACC-4049-9F63-BEA3FA6B78E4</string>
+			<string>B76296E1-C28E-4CC4-864A-4EE74F639B2D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -646,6 +583,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>21A75BDB-BACC-4049-9F63-BEA3FA6B78E4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -665,10 +621,38 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^open\s+</string>
+			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
+			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>B76296E1-C28E-4CC4-864A-4EE74F639B2D</string>
+			<string>31AE0142-FBB7-4205-B9BE-E883628C5FEE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>^\w+\s+</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>15EDCCD8-D9FD-4C8C-AF23-072DCBC49B65</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -729,63 +713,6 @@ fi</string>
 				<key>matchmode</key>
 				<integer>2</integer>
 				<key>matchstring</key>
-				<string>^open\s+</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>31AE0142-FBB7-4205-B9BE-E883628C5FEE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>1</integer>
-				<key>matchstring</key>
-				<string>^\w+\s+</string>
-				<key>replacestring</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>15EDCCD8-D9FD-4C8C-AF23-072DCBC49B65</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>ghto</string>
-				<key>subtext</key>
-				<string>Opens the shorthand tools directory in Finder</string>
-				<key>text</key>
-				<string>View GitHub Shorthand Tools Files</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>B5F2864B-81D9-4ECA-8352-189497BEA83F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>2</integer>
-				<key>matchstring</key>
 				<string>^edit\s+</string>
 			</dict>
 			<key>type</key>
@@ -811,36 +738,6 @@ fi</string>
 			<string>5188A37A-2D54-4C5C-BD05-D1BCA54A4E71</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>finder .</string>
-				<key>variables</key>
-				<dict/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>641B9D67-E0A2-4E4D-B173-311EFEC5E9A6</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>ECBE697D-7144-42FB-A083-CAE5E03F74FF</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -881,46 +778,17 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>126</integer>
-				<key>script</key>
-				<string>echo term `pwd`</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
+				<key>openwith</key>
 				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>sourcefile</key>
+				<string></string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>2221A9CD-EA12-4CA7-A167-CC879D6E6FD4</string>
+			<string>ECBE697D-7144-42FB-A083-CAE5E03F74FF</string>
 			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>ghtt</string>
-				<key>subtext</key>
-				<string>Opens the shorthand tools directory in terminal</string>
-				<key>text</key>
-				<string>Terminal in the GitHub Shorthand Tools directory</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>B3994634-DAE0-4731-A50C-B90467665AE3</string>
-			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -955,58 +823,6 @@ fi</string>
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
 			<string>F90F3CCB-0920-4D5D-A225-1446D2A2A8AA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>cd {query}
-clear</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.terminalcommand</string>
-			<key>uid</key>
-			<string>BA5E4728-D001-400B-8B09-BF5244EC6FAF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>1</integer>
-				<key>matchstring</key>
-				<string>^\w+\s+</string>
-				<key>replacestring</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>C67DF300-2383-4166-80AE-1B372DF844D9</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>2</integer>
-				<key>matchstring</key>
-				<string>^paste\s+</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>266589AF-4BBD-47BB-8AC4-42D7A8F9A9D7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1063,6 +879,42 @@ end</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>^\w+\s+</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>C67DF300-2383-4166-80AE-1B372DF844D9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^paste\s+</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>266589AF-4BBD-47BB-8AC4-42D7A8F9A9D7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string>{clipboard}</string>
 				<key>variables</key>
@@ -1072,6 +924,39 @@ end</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>D83420D3-EC3F-439B-874F-902948F32C28</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>cd {query}
+clear</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>BA5E4728-D001-400B-8B09-BF5244EC6FAF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>keyword</key>
+				<string>gml</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.snippet</string>
+			<key>uid</key>
+			<string>6CEE0380-7BB8-4FAD-8146-1BFD0219973F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1091,23 +976,6 @@ end</string>
 			<string>B3CFC472-CF47-4072-B35C-BDF99697D7C7</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>keyword</key>
-				<string>gml</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.snippet</string>
-			<key>uid</key>
-			<string>6CEE0380-7BB8-4FAD-8146-1BFD0219973F</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1204,7 +1072,7 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>570</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>280</integer>
 		</dict>
 		<key>10A42F83-D208-4620-ADCD-E28A7C2B6800</key>
 		<dict>
@@ -1218,7 +1086,7 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>280</integer>
 			<key>ypos</key>
-			<integer>610</integer>
+			<integer>510</integer>
 		</dict>
 		<key>15EDCCD8-D9FD-4C8C-AF23-072DCBC49B65</key>
 		<dict>
@@ -1227,7 +1095,7 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>670</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>200</integer>
 		</dict>
 		<key>1F19CDDD-6964-4CB1-BC97-D2226B05A89F</key>
 		<dict>
@@ -1247,15 +1115,6 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>ypos</key>
 			<integer>130</integer>
 		</dict>
-		<key>2221A9CD-EA12-4CA7-A167-CC879D6E6FD4</key>
-		<dict>
-			<key>note</key>
-			<string>term `pwd`</string>
-			<key>xpos</key>
-			<integer>190</integer>
-			<key>ypos</key>
-			<integer>460</integer>
-		</dict>
 		<key>266589AF-4BBD-47BB-8AC4-42D7A8F9A9D7</key>
 		<dict>
 			<key>note</key>
@@ -1263,7 +1122,7 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>570</integer>
 			<key>ypos</key>
-			<integer>600</integer>
+			<integer>520</integer>
 		</dict>
 		<key>2AE6E21F-7F13-40ED-A6E8-479AE73422C3</key>
 		<dict>
@@ -1272,7 +1131,7 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>190</integer>
 		</dict>
 		<key>31AE0142-FBB7-4205-B9BE-E883628C5FEE</key>
 		<dict>
@@ -1281,7 +1140,7 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>570</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>200</integer>
 		</dict>
 		<key>399D91FB-2935-4416-941A-8EA82244BB2E</key>
 		<dict>
@@ -1290,7 +1149,7 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>210</integer>
 			<key>ypos</key>
-			<integer>230</integer>
+			<integer>220</integer>
 		</dict>
 		<key>5188A37A-2D54-4C5C-BD05-D1BCA54A4E71</key>
 		<dict>
@@ -1299,7 +1158,7 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>670</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>280</integer>
 		</dict>
 		<key>52B6EB42-5058-422A-88BA-6708ECD4CAD6</key>
 		<dict>
@@ -1308,7 +1167,7 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>670</integer>
 			<key>ypos</key>
-			<integer>120</integer>
+			<integer>40</integer>
 		</dict>
 		<key>54B604D3-B5B3-4345-86FE-E24CFAB73636</key>
 		<dict>
@@ -1317,7 +1176,7 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>570</integer>
 			<key>ypos</key>
-			<integer>520</integer>
+			<integer>440</integer>
 		</dict>
 		<key>58CE5C91-8713-404B-80E5-17A455BF445D</key>
 		<dict>
@@ -1326,37 +1185,28 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>870</integer>
+			<integer>770</integer>
 		</dict>
 		<key>5DF3A592-BB66-43B9-99FC-98E48E6DC86F</key>
 		<dict>
 			<key>xpos</key>
 			<integer>280</integer>
 			<key>ypos</key>
-			<integer>840</integer>
+			<integer>740</integer>
 		</dict>
 		<key>60E158C2-449E-4EE0-907F-086E5F71951C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>840</integer>
-		</dict>
-		<key>641B9D67-E0A2-4E4D-B173-311EFEC5E9A6</key>
-		<dict>
-			<key>note</key>
-			<string>finder .</string>
-			<key>xpos</key>
-			<integer>210</integer>
-			<key>ypos</key>
-			<integer>380</integer>
+			<integer>740</integer>
 		</dict>
 		<key>6CEE0380-7BB8-4FAD-8146-1BFD0219973F</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>720</integer>
+			<integer>620</integer>
 		</dict>
 		<key>7250CBBD-C6F1-4426-89A1-13EE9A8CA551</key>
 		<dict>
@@ -1367,7 +1217,7 @@ convert 'gh&lt;text&gt;' to actions</string>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>10</integer>
 		</dict>
 		<key>7ED69D0B-BE9E-48F4-9C2D-586EA3AAD3B9</key>
 		<dict>
@@ -1376,14 +1226,14 @@ convert 'gh&lt;text&gt;' to actions</string>
 			<key>xpos</key>
 			<integer>570</integer>
 			<key>ypos</key>
-			<integer>120</integer>
+			<integer>40</integer>
 		</dict>
 		<key>A1CEFFDE-373F-4AF0-84A3-308C41A10F8A</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>610</integer>
+			<integer>510</integer>
 		</dict>
 		<key>A5A11480-CEAD-4CA5-9FF1-CB0175EC189D</key>
 		<dict>
@@ -1392,14 +1242,7 @@ convert 'gh&lt;text&gt;' to actions</string>
 			<key>xpos</key>
 			<integer>570</integer>
 			<key>ypos</key>
-			<integer>440</integer>
-		</dict>
-		<key>B3994634-DAE0-4731-A50C-B90467665AE3</key>
-		<dict>
-			<key>xpos</key>
-			<integer>30</integer>
-			<key>ypos</key>
-			<integer>460</integer>
+			<integer>360</integer>
 		</dict>
 		<key>B3CFC472-CF47-4072-B35C-BDF99697D7C7</key>
 		<dict>
@@ -1410,19 +1253,12 @@ convert 'gh&lt;text&gt;' to actions</string>
 			<key>ypos</key>
 			<integer>690</integer>
 		</dict>
-		<key>B5F2864B-81D9-4ECA-8352-189497BEA83F</key>
-		<dict>
-			<key>xpos</key>
-			<integer>30</integer>
-			<key>ypos</key>
-			<integer>350</integer>
-		</dict>
 		<key>B76296E1-C28E-4CC4-864A-4EE74F639B2D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<integer>360</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>40</integer>
 		</dict>
 		<key>BA5E4728-D001-400B-8B09-BF5244EC6FAF</key>
 		<dict>
@@ -1440,7 +1276,7 @@ convert 'gh&lt;text&gt;' to actions</string>
 			<key>xpos</key>
 			<integer>670</integer>
 			<key>ypos</key>
-			<integer>600</integer>
+			<integer>520</integer>
 		</dict>
 		<key>D1959751-C207-4C71-911C-5B6220129C3C</key>
 		<dict>
@@ -1449,7 +1285,7 @@ convert 'gh&lt;text&gt;' to actions</string>
 			<key>xpos</key>
 			<integer>670</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>120</integer>
 		</dict>
 		<key>D83420D3-EC3F-439B-874F-902948F32C28</key>
 		<dict>
@@ -1458,7 +1294,7 @@ convert 'gh&lt;text&gt;' to actions</string>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>640</integer>
+			<integer>540</integer>
 		</dict>
 		<key>DB204718-5A97-4642-8F05-48740B01D9B7</key>
 		<dict>
@@ -1467,14 +1303,14 @@ convert 'gh&lt;text&gt;' to actions</string>
 			<key>xpos</key>
 			<integer>670</integer>
 			<key>ypos</key>
-			<integer>440</integer>
+			<integer>360</integer>
 		</dict>
 		<key>E3EF03F2-6E77-4455-B9D7-6727F063D410</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>950</integer>
+			<integer>850</integer>
 		</dict>
 		<key>ECBE697D-7144-42FB-A083-CAE5E03F74FF</key>
 		<dict>
@@ -1492,7 +1328,7 @@ convert 'gh&lt;text&gt;' to actions</string>
 			<key>xpos</key>
 			<integer>570</integer>
 			<key>ypos</key>
-			<integer>200</integer>
+			<integer>120</integer>
 		</dict>
 		<key>F90F3CCB-0920-4D5D-A225-1446D2A2A8AA</key>
 		<dict>
@@ -1501,7 +1337,7 @@ convert 'gh&lt;text&gt;' to actions</string>
 			<key>xpos</key>
 			<integer>670</integer>
 			<key>ypos</key>
-			<integer>520</integer>
+			<integer>440</integer>
 		</dict>
 	</dict>
 	<key>variables</key>

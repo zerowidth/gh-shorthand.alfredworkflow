@@ -70,8 +70,6 @@ Given `https://github.com/zerowidth/gh-shorthand/issues/123` on the clipboard:
 ### Meta
 
 * `ghc` opens an editor for `~/.gh-shorthand.yml` to configure the `gh-shorthand`  script backing this workflow. See the [`gh-shorthand` configuration](https://github.com/zerowidth/gh-shorthand#configuration) docs for more information.
-* `ghtt` opens a terminal in this workflow's directory.
-* `ghto` opens this workflow's directory in Finder.
 
 ## RPC annotation
 
