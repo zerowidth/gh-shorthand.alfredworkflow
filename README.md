@@ -9,6 +9,7 @@ This repository contains the Alfred workflow. In addition, you'll need the [`gh-
 
 * Install the `gh-shorthand` CLI tool (see its [README](https://github.com/zerowidth/gh-shorthand#installation) for instructions)
 * Download and install the `gh-shorthand.alfredworkflow` workflow from the [releases](https://github.com/zerowidth/gh-shorthand.alfredworkflow/releases) page.
+* Alternately, if you want to run directly from a live repository (so you get updates, etc.), clone this repository and run `./install.sh` to symlink it into your Alfred workflow directory.
 * Edit the config vars for this workflow by clicking the `[x]` in the Alfred toolbar.
     * Change `EDITOR` to your preferred editor's command-line invocation. It will be executed with a directory or filename as the first and only argument.
     * Change `GH_SHORTHAND` to the path to your `gh-shorthand` binary, either as downloaded from a release or as built from source.
