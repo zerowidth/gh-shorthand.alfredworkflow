@@ -679,15 +679,15 @@
 				<key>escaping</key>
 				<integer>126</integer>
 				<key>script</key>
-				<string># exec with a newer bash as a login shell, 
+				<string># exec with the official login shell,
 # so the editor (e.g. mvim) gets the proper environment
 if [ -d "$@" ]; then
-  exec /usr/local/bin/bash -l -c "cd \"$@\" &amp;&amp; $EDITOR ."
+  exec $SHELL -l -c "cd \"$@\" &amp;&amp; $EDITOR ."
 else
   dn=$(dirname "$@") # get the dirname
   dir=${dn/\~/$HOME} # expand ~/
   f=$(basename "$@")
-  exec /usr/local/bin/bash -l -c "cd \"$dir\" &amp;&amp; $EDITOR \"$f\""
+  exec $SHELL -l -c "cd \"$dir\" &amp;&amp; $EDITOR \"$f\""
 fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -1350,6 +1350,8 @@ convert 'gh&lt;text&gt;' to actions</string>
 		<string>/usr/local/bin/mvim</string>
 		<key>GH_SHORTHAND</key>
 		<string>~/go/bin/gh-shorthand</string>
+		<key>SHELL</key>
+		<string>/usr/local/bin/bash</string>
 	</dict>
 	<key>version</key>
 	<string>0.0.1</string>
