@@ -1351,7 +1351,7 @@ convert 'gh&lt;text&gt;' to actions</string>
 		<key>GH_SHORTHAND</key>
 		<string>~/go/bin/gh-shorthand</string>
 		<key>SHELL</key>
-		<string>/usr/local/bin/bash</string>
+		<string>/usr/bin/bash</string>
 	</dict>
 	<key>version</key>
 	<string>0.0.1</string>
