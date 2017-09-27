@@ -13,6 +13,7 @@ This repository contains the Alfred workflow. In addition, you'll need the [`gh-
 * Edit the config vars for this workflow by clicking the `[x]` in the Alfred toolbar.
     * Change `EDITOR` to your preferred editor's command-line invocation. It will be executed with a directory or filename as the first and only argument.
     * Change `GH_SHORTHAND` to the path to your `gh-shorthand` binary, either as downloaded from a release or as built from source.
+    * Change `SHELL` to your preferred login shell (the one with all the environment variables your editor needs). If you're not sure, you can leave it as `/usr/bin/bash`.
 * (Optional) install, configure, and start the `gh-shorthand-backend` server.
 
 ## Examples
