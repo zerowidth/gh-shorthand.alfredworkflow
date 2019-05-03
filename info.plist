@@ -1850,7 +1850,7 @@ convert 'gh&lt;text&gt;' to actions</string>
 		<string>/usr/bin/bash</string>
 	</dict>
 	<key>version</key>
-	<string>0.0.1</string>
+	<string>2.0.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/zerowidth/gh-shorthand.alfredworkflow</string>
 </dict>
