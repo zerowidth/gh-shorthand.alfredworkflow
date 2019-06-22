@@ -935,9 +935,12 @@ clear</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>edit ~/.gh-shorthand.yml</string>
+				<string>~/.gh-shorthand.yml</string>
 				<key>variables</key>
-				<dict/>
+				<dict>
+					<key>action</key>
+					<string>edit</string>
+				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
