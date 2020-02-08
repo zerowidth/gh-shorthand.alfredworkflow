@@ -534,13 +534,11 @@
 				<key>script</key>
 				<string># exec with the official login shell,
 # so the editor (e.g. mvim) gets the proper environment
-if [ -d "$@" ]; then
-  exec $SHELL -l -c "cd \"$@\" &amp;&amp; $EDITOR ."
+path=${1/\~/$HOME} # expand ~/
+if [ -d "$path" ]; then
+  exec $SHELL -l -c "cd \"$path\" &amp;&amp; $EDITOR ."
 else
-  dn=$(dirname "$@") # get the dirname
-  dir=${dn/\~/$HOME} # expand ~/
-  f=$(basename "$@")
-  exec $SHELL -l -c "cd \"$dir\" &amp;&amp; $EDITOR \"$f\""
+  exec $SHELL -l -c "cd \"$(dirname "$path")\" &amp;&amp; $EDITOR \"$(basename "$path")\""
 fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
