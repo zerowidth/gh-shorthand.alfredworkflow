@@ -532,13 +532,15 @@
 				<key>escaping</key>
 				<integer>126</integer>
 				<key>script</key>
-				<string># exec with the official login shell,
-# so the editor (e.g. mvim) gets the proper environment
+				<string># Evaluate the configured editor script to open $path.
+#
+# Expand ~/ for both `gh-shorthand` and the path to edit:
 path=${1/\~/$HOME} # expand ~/
-if [ -d "$path" ]; then
-  exec $SHELL -l -c "cd \"$path\" &amp;&amp; $EDITOR ."
+if edit_script=$(${GH_SHORTHAND/\~/$HOME} editor); then
+  # redirect stderr so errors are displayed
+  eval "$edit_script" 2&gt;&amp;1
 else
-  exec $SHELL -l -c "cd \"$(dirname "$path")\" &amp;&amp; $EDITOR \"$(basename "$path")\""
+  echo "Can't open editor: $edit_script"
 fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -1436,12 +1438,8 @@ convert 'gh&lt;text&gt;' to actions</string>
 	</dict>
 	<key>variables</key>
 	<dict>
-		<key>EDITOR</key>
-		<string>/usr/local/bin/mvim</string>
 		<key>GH_SHORTHAND</key>
 		<string>~/go/bin/gh-shorthand</string>
-		<key>SHELL</key>
-		<string>/usr/bin/bash</string>
 	</dict>
 	<key>version</key>
 	<string>2.0.0</string>
