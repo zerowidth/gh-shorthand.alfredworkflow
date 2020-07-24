@@ -478,7 +478,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>filter.rb</string>
+				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -546,7 +546,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>filter.rb</string>
+				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -727,7 +727,7 @@ fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>filter.rb</string>
+				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -799,7 +799,7 @@ fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>filter.rb</string>
+				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -881,7 +881,7 @@ clear</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>filter.rb</string>
+				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -1006,7 +1006,7 @@ clear</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>markdown_link.rb</string>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -1101,7 +1101,7 @@ clear</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>markdown_link.rb</string>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -1217,7 +1217,7 @@ clear</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>issue_reference.rb</string>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
