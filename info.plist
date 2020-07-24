@@ -8,11 +8,37 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>125D710F-EAEA-464D-A24F-7CE05A9FE723</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F8107E36-C669-4EAF-99C1-93367E49F5AF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>13C73F0F-49C2-4C91-8412-02C0934FB773</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>B3CFC472-CF47-4072-B35C-BDF99697D7C7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>16015ABA-CDEC-4517-B775-1EE50DBD303B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D83420D3-EC3F-439B-874F-902948F32C28</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -323,6 +349,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F8107E36-C669-4EAF-99C1-93367E49F5AF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D0F253C9-561D-4D1D-8DDF-917332DA2E20</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>58CE5C91-8713-404B-80E5-17A455BF445D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1028,6 +1067,23 @@ clear</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>keyword</key>
+				<string>ml</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.snippet</string>
+			<key>uid</key>
+			<string>16015ABA-CDEC-4517-B775-1EE50DBD303B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -1098,6 +1154,23 @@ clear</string>
 			<string>alfred.workflow.trigger.snippet</string>
 			<key>uid</key>
 			<string>C51CB0D4-053F-4974-AF4D-56B8C7581B7F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>keyword</key>
+				<string>md</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.snippet</string>
+			<key>uid</key>
+			<string>125D710F-EAEA-464D-A24F-7CE05A9FE723</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1177,6 +1250,23 @@ clear</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>keyword</key>
+				<string>ir</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.snippet</string>
+			<key>uid</key>
+			<string>D0F253C9-561D-4D1D-8DDF-917332DA2E20</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>This Alfred 3 workflow provides easy access to GitHub repositories, issue search, local project directories, and more using a configurable shorthand.
@@ -1193,6 +1283,13 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<key>ypos</key>
 			<integer>835</integer>
 		</dict>
+		<key>125D710F-EAEA-464D-A24F-7CE05A9FE723</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>1340</integer>
+		</dict>
 		<key>13C73F0F-49C2-4C91-8412-02C0934FB773</key>
 		<dict>
 			<key>note</key>
@@ -1201,6 +1298,13 @@ View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for 
 			<integer>280</integer>
 			<key>ypos</key>
 			<integer>985</integer>
+		</dict>
+		<key>16015ABA-CDEC-4517-B775-1EE50DBD303B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>45</integer>
+			<key>ypos</key>
+			<integer>1120</integer>
 		</dict>
 		<key>1F19CDDD-6964-4CB1-BC97-D2226B05A89F</key>
 		<dict>
@@ -1380,6 +1484,13 @@ convert 'g&lt;text&gt;' to actions</string>
 			<integer>30</integer>
 			<key>ypos</key>
 			<integer>1315</integer>
+		</dict>
+		<key>D0F253C9-561D-4D1D-8DDF-917332DA2E20</key>
+		<dict>
+			<key>xpos</key>
+			<integer>45</integer>
+			<key>ypos</key>
+			<integer>1560</integer>
 		</dict>
 		<key>D83420D3-EC3F-439B-874F-902948F32C28</key>
 		<dict>
