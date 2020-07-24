@@ -1283,7 +1283,7 @@ clear</string>
 	<key>readme</key>
 	<string>This Alfred 3 workflow provides easy access to GitHub repositories, issue search, local project directories, and more using a configurable shorthand.
 
-View the README at https://github.com/zerowidth/gh-shorthand.alfredworkflow for configuration instructions.</string>
+View the README at https://github.com/zerowidth/gh-shorthand for configuration instructions.</string>
 	<key>uidata</key>
 	<dict>
 		<key>10A42F83-D208-4620-ADCD-E28A7C2B6800</key>
