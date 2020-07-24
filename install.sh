@@ -2,10 +2,10 @@
 
 set -e
 
-prefs=~/Library/Preferences/com.runningwithcrayons.Alfred-Preferences-3.plist
+prefs=~/Library/Preferences/com.runningwithcrayons.Alfred-Preferences.plist
 syncfolder=$(/usr/libexec/PlistBuddy -c "print :syncfolder" $prefs 2>/dev/null || echo)
 if [ -z "$syncfolder" ]; then
-  syncfolder=~/Library/Application\ Support/Alfred\ 3
+  syncfolder=~/Library/Application\ Support/Alfred
 fi
 
 workflows=$syncfolder/Alfred.alfredpreferences/workflows
