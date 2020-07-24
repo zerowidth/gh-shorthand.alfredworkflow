@@ -837,6 +837,8 @@ clear</string>
 			<dict>
 				<key>argument</key>
 				<string>action missing. argument: '{query}'</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -918,6 +920,8 @@ clear</string>
 			<dict>
 				<key>argument</key>
 				<string>unknown action '{var:action}'. arg: '{query}'</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -975,6 +979,8 @@ clear</string>
 			<dict>
 				<key>argument</key>
 				<string>~/.gh-shorthand.yml</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key>action</key>
@@ -1037,6 +1043,8 @@ clear</string>
 			<dict>
 				<key>argument</key>
 				<string>{clipboard}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -1130,6 +1138,8 @@ clear</string>
 			<dict>
 				<key>argument</key>
 				<string>{clipboard}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict/>
 			</dict>
@@ -1223,6 +1233,8 @@ clear</string>
 			<dict>
 				<key>argument</key>
 				<string>{clipboard}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict/>
 			</dict>
