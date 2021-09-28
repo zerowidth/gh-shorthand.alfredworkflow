@@ -7,8 +7,7 @@ This Alfred 4 workflow provides easy access to GitHub repositories, issue search
 This repository contains the Alfred workflow. In addition, you'll need the [`gh-shorthand` command-line tool and optional RPC server](https://github.com/zerowidth/gh-shorthand).
 
 * Install the `gh-shorthand` CLI tool. See its [README](https://github.com/zerowidth/gh-shorthand#installation) for instructions.
-* Download and install the `gh-shorthand.alfredworkflow` workflow from the [releases](https://github.com/zerowidth/gh-shorthand.alfredworkflow/releases) page.
-* If you want to run directly from a live repository (to make updates easier), clone this repository and run `./install.sh` to symlink it into your Alfred workflow directory.
+* Clone this repository and run `./install.sh` to symlink it into your Alfred workflow directory.
 * Edit the config vars for this workflow by clicking the `[x]` in the Alfred toolbar:
   * Change `GH_SHORTHAND` to the path to your `gh-shorthand` binary, either as downloaded from a release or as built from source. This defaults to `~/go/bin/gh-shorthand`.
 
